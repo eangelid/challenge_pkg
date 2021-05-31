@@ -13,5 +13,5 @@ setup(name='challenge_pkg',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/challenge_pkg-run'],
+      scripts=['scripts/challenge_pkg-run', 'scripts/challenge_pkg-computedist'],
       zip_safe=False)
